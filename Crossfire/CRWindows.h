@@ -11,3 +11,11 @@
 + (void)enableWithRootViewControllerClass:(Class)rootViewControllerClass;
 
 @end
+
+@interface UIViewController (CRWindows)
+
+- (BOOL)hasMirroringScreen;
+- (BOOL)isMirroringScreen;
+- (BOOL)isMainScreen;
+
+@end

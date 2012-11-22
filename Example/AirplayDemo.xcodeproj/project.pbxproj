@@ -17,6 +17,7 @@
 		1BFAE19314CD531B00F7D73F /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BFAE19214CD531B00F7D73F /* QuartzCore.framework */; };
 		CF73CA48165DEB47008E53F3 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF73CA47165DEB47008E53F3 /* MediaPlayer.framework */; };
 		CF73CA4D165DF8EA008E53F3 /* CRWindows.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73CA4B165DF8EA008E53F3 /* CRWindows.m */; };
+		CF73CA54165E06A3008E53F3 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CF73CA53165E06A3008E53F3 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +37,7 @@
 		CF73CA47165DEB47008E53F3 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
 		CF73CA4A165DF8EA008E53F3 /* CRWindows.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.objj.h; name = CRWindows.h; path = ../../Crossfire/CRWindows.h; sourceTree = "<group>"; };
 		CF73CA4B165DF8EA008E53F3 /* CRWindows.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CRWindows.m; path = ../../Crossfire/CRWindows.m; sourceTree = "<group>"; };
+		CF73CA53165E06A3008E53F3 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +45,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF73CA54165E06A3008E53F3 /* AVFoundation.framework in Frameworks */,
 				CF73CA48165DEB47008E53F3 /* MediaPlayer.framework in Frameworks */,
 				1BFAE19314CD531B00F7D73F /* QuartzCore.framework in Frameworks */,
 				1BFAE16B14CD44F200F7D73F /* UIKit.framework in Frameworks */,
@@ -57,6 +60,7 @@
 		1BFAE15B14CD44F100F7D73F = {
 			isa = PBXGroup;
 			children = (
+				CF73CA53165E06A3008E53F3 /* AVFoundation.framework */,
 				1BFAE17014CD44F200F7D73F /* AirplayDemo */,
 				1BFAE16914CD44F200F7D73F /* Frameworks */,
 				1BFAE16714CD44F200F7D73F /* Products */,

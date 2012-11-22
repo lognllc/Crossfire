@@ -112,3 +112,22 @@
 }
 
 @end
+
+@implementation UIViewController (CRWindows)
+
+- (BOOL)isMainScreen
+{
+	return self.view.window.screen == [UIScreen mainScreen];
+}
+
+- (BOOL)isMirroringScreen
+{
+	return ![self isMainScreen];
+}
+
+- (BOOL)hasMirroringScreen
+{
+	return [self isMainScreen] && [CRWindows shared].windows.count > 1;
+}
+
+@end

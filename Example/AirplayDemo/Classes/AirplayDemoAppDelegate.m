@@ -11,9 +11,10 @@
 
 @implementation AirplayDemoAppDelegate
 
-- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {    
+- (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
+{
 	[CRWindows enableWithRootViewControllerClass:[AirplayDemoViewController class]];
-    return YES;
+	return YES;
 }
 
 @end
